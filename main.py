@@ -13,16 +13,16 @@ def count_character(file):
             character[char.lower()] += 1
         else:
             character[char.lower()] = 1
-    
+
     return character
 
 
 def main():
-
-    with open("books/frankenstein.txt") as f:
+    path = "books/frankenstein.txt"
+    with open(path) as f:
         file_contents = f.read()
 
-        print("--- Begin report of books/frankenstein.txt ---")
+        print(f"--- Begin report of {path} ---")
 
         words = count_words(file_contents)
         print(f"{words} words found in the document")
@@ -34,7 +34,7 @@ def main():
         for char in character:
             if char.isalpha():
                 char_list.append(character[char])
-        
+
         char_list.sort()
         print()
 
@@ -44,7 +44,7 @@ def main():
                     print(f"The '{char}' character was found {char_list[i]} times")
 
         print("--- End report ---")
-        
+
 
 
 main()
