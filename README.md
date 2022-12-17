@@ -8,9 +8,9 @@ BookBot is my first git project!
 ## Running it
 
 - Have python3 installed
-- fork it and clone the repo,
-`git clone https://github.com/<Your-UserName>/bookbot_py.git`
-- In the project's home directory run `mkdir && cd books`, add your own `<file-name>.txt`
+- You can fork it and clone it or just clone it using 
+`git clone https://github.com/KiranSatyaRaj/bookbot_py.git`
+- `mkdir && cd books`, add your own `<file-name>.txt`
 - run `cd ..` and change the [path](https://github.com/KiranSatyaRaj/bookbot_py/blob/main/main.py#L22) 
-with the `books/<file-name>.txt` in [main.py](https://github.com/KiranSatyaRaj/bookbot_py/blob/main/main.py), and save it
+with the `books/<file-name>.txt` in [main.py](https://github.com/KiranSatyaRaj/bookbot_py/blob/main/main.py), save it
 - run `python3 main.py`
