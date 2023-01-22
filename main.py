@@ -5,5 +5,4 @@ def main():
     book = Count(path)
     book._execute_bookbot()
 
-
 main()
